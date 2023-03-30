@@ -1,12 +1,14 @@
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import Button from 'react-bootstrap/Button'
+import Image from './instacart.png'
 
 export default function NavBar() {
-    <div>
+    return (
+        <div>
         <Navbar bg="light" expand="lg" >
             <Navbar.Brand style={{ margin: "5px 0 0 20px" }} href="#home">
-                <img src="[Instacart logo src]" />
+                <img src={Image} alt="logo" />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
@@ -19,4 +21,5 @@ export default function NavBar() {
             </Navbar.Collapse>
         </Navbar>
     </div>
+    )
 }
