@@ -7,10 +7,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-    {NavBar}
-    {Background}
-    {StoreListings}
-    
+    <NavBar />
+    <Background />
+    <StoreListings />
     </div>
   )
 }
